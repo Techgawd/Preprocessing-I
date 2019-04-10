@@ -1,1 +1,228 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+header {
+  margin: 20px 50px 20px 50px;
+}
+header .fa {
+  color: #E6B032;
+  display: inline-block;
+}
+h1 {
+  font-size: 35px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 5px;
+}
+h2 {
+  font-size: 30px;
+  color: #73E0D1;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 25px;
+}
+header .lefttopsection {
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+header .righttopsection {
+  display: inline-block;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+header .righttopsection p {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+}
+.style5 {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #E6B032 inset;
+}
+nav {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  width: 92%;
+}
+.sidenav {
+  margin-top: 25px;
+}
+.sidenav a {
+  font-family: 'Oswald', sans-serif;
+  color: #E6B032;
+  font-size: 17px;
+}
+.midsection {
+  display: flex;
+  justify-content: center;
+  margin: 0px 50px 10px 50px;
+}
+.profile {
+  flex-grow: 2;
+  order: 2;
+}
+.skills {
+  flex-grow: 1;
+  order: 1;
+  margin-right: 20px;
+}
+.work {
+  flex-grow: 1;
+  order: 3;
+}
+.profile img {
+  height: 200px;
+  width: 250px;
+  margin-top: 10px;
+  border: 8px solid #73E0D1;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+footer {
+  font-family: 'Oswald', sans-serif;
+  color: #E6B032;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+li {
+  font-family: 'Oswald', sans-serif;
+}
+h4 {
+  font-family: 'Lato', sans-serif;
+}
