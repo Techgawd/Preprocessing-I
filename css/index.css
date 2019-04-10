@@ -140,7 +140,6 @@ header {
 h1 {
   font-size: 35px;
   font-family: 'Oswald', sans-serif;
-  margin-left: 20px;
   margin-bottom: 5px;
 }
 h2 {
@@ -171,4 +170,50 @@ h2 {
   height: 10px;
   border: 0;
   box-shadow: 0 10px 10px -10px #E6B032 inset;
+}
+nav {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  width: 92%;
+}
+.sidenav a {
+  font-family: 'Oswald', sans-serif;
+  color: #E6B032;
+  font-size: 17px;
+}
+.midsection {
+  display: flex;
+  justify-content: center;
+  margin: 0px 50px 10px 50px;
+}
+.profile {
+  flex-grow: 2;
+  order: 2;
+}
+.skills {
+  flex-grow: 1;
+  order: 1;
+  margin-right: 20px;
+}
+.work {
+  flex-grow: 1;
+  order: 3;
+}
+.profile img {
+  height: 200px;
+  width: 250px;
+  margin-top: 10px;
+  border: 8px solid #73E0D1;
+}
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+}
+footer {
+  font-family: 'Oswald', sans-serif;
+  color: #E6B032;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
