@@ -137,6 +137,10 @@ body {
 header {
   margin: 20px 50px 20px 50px;
 }
+header .fa {
+  color: #E6B032;
+  display: inline-block;
+}
 h1 {
   font-size: 35px;
   font-family: 'Oswald', sans-serif;
@@ -148,23 +152,19 @@ h2 {
   font-family: 'Oswald', sans-serif;
   margin-left: 25px;
 }
-.fa {
-  color: #E6B032;
-  display: inline-block;
-}
-.righttopsection p {
-  display: inline-block;
-  font-family: 'Oswald', sans-serif;
-}
-.lefttopsection {
+header .lefttopsection {
   width: 50%;
   display: inline-block;
   margin-bottom: 10px;
 }
-.righttopsection {
+header .righttopsection {
   display: inline-block;
   margin-left: 100px;
   margin-bottom: 10px;
+}
+header .righttopsection p {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
 }
 .style5 {
   height: 10px;
@@ -176,6 +176,9 @@ nav {
   margin-right: 50px;
   display: flex;
   width: 92%;
+}
+.sidenav {
+  margin-top: 25px;
 }
 .sidenav a {
   font-family: 'Oswald', sans-serif;
@@ -207,7 +210,7 @@ nav {
   border: 8px solid #73E0D1;
 }
 p {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
 footer {
@@ -216,4 +219,10 @@ footer {
   text-align: center;
   margin-left: 50px;
   margin-right: 50px;
+}
+li {
+  font-family: 'Oswald', sans-serif;
+}
+h4 {
+  font-family: 'Lato', sans-serif;
 }
